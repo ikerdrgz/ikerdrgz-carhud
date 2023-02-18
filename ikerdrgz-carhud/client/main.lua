@@ -2,7 +2,7 @@ local showing_hud = false
 local seatbelt_enabled = false
 local speedMultiplier = 3.6 -- 2.236936 // MPH |||||| 3.6 // KMH
 local no_authorized_seatbelt = { 8, 16, 15, 13 }
-local no_authorized_ui = { 13 }
+local no_authorized_classes = { 13 }
 
 -------------------------
 ------ Main Thread ------
@@ -24,7 +24,7 @@ CreateThread(function()
             showing_hud = false
         end
 
-        for k,v in pairs(no_authorized_ui) do
+        for k,v in pairs(no_authorized_classes) do
             if GetVehicleClass(GetVehiclePedIsUsing(ped)) == v then
                 showing_hud = false
             end
