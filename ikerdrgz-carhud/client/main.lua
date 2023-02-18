@@ -67,7 +67,7 @@ function permitted_seatbelt(vehicle_class)
         end
     end
 
-    return tostring(retval)
+    return retval
 end
 
 ---------------------
