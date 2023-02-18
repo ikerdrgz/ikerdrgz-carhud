@@ -39,6 +39,8 @@
     color: white;
 }
 
+/* Ocultar/hide scrollbar */
+
 ::-webkit-scrollbar {
   display: none;
 }
