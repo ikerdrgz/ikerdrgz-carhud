@@ -8,7 +8,7 @@ client_scripts {
     'client/*.lua',
 }
 
-ui_page 'ui/index.html'
+ui_page 'ui/html.html'
 
 files {
     'ui/assets/*.png',
