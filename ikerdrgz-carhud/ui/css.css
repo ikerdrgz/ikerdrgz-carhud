@@ -1,12 +1,11 @@
-@font-face {
-    font-family: box;
-    src: url('assets/box.ttf');
-}
+/* Fuente/font */
 
 @font-face {
   font-family: digital;
   src: url('assets/digital.ttf');
 }
+
+/* General */
 
 .main-div {
   display: none;
