@@ -48,7 +48,6 @@ CreateThread(function()
             })
         else
             SendNUIMessage({ show = false })
-            showing_hud = false
         end
 
         Wait(ms)
