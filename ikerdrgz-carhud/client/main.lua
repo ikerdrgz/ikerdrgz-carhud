@@ -59,13 +59,15 @@ end)
 ---------------------
 
 function permitted_seatbelt(vehicle_class)
+    local retval = false
+    
     for _, value in pairs(no_authorized_seatbelt) do
         if vehicle_class == value then
-            return false
+            retval = true
         end
     end
 
-    return true
+    return tostring(retval)
 end
 
 ---------------------
