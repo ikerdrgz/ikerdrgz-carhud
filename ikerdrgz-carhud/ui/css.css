@@ -8,22 +8,6 @@
   src: url('assets/digital.ttf');
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
-::-webkit-scrollbar-track {
-    display: none;
-}
-
-::-webkit-scrollbar-thumb {
-  display: none;
-}
-
-::-webkit-scrollbar-button {
-  display: none;
-}
-
 .main-div {
   display: none;
   position: absolute;
@@ -53,6 +37,22 @@
     font-size: 1.95vw;
     text-align: center;
     color: white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
 }
 
 @keyframes blink {
