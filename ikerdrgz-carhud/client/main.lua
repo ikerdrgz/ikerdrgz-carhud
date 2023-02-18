@@ -1,6 +1,6 @@
 local showing_hud = false
 local seatbelt_enabled = false
-local speedMultiplier = 3.6 -- 2.236936 // MPH |||||| 3.6 // KMH
+local speedMultiplier = 3.6 -- 2.236936: MPH | 3.6: KMH
 local no_authorized_seatbelt = { 8, 16, 15, 13 }
 local no_authorized_classes = { 13 }
 
