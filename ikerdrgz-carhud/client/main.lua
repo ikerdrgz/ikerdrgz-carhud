@@ -59,9 +59,9 @@ end)
 ----- Functions -----
 ---------------------
 
-function permitted_seatbelt(vehicleClass)
+function permitted_seatbelt(vehicle_class)
     for _, value in pairs(no_authorized_seatbelt) do
-        if vehicleClass == value then
+        if vehicle_class == value then
             return false
         end
     end
